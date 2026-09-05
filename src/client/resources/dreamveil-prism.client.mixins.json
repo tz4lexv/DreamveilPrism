@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "package": "dev.dreamveil.prism.mixin",
+  "client": [
+    "GpuDeviceAccessorMixin",
+    "CommandEncoderAccessorMixin",
+    "EntityMotionIdentityMixin",
+    "EntityRendererMotionMixin",
+    "ModelFeatureMotionMixin",
+    "ModelPartMotionMixin",
+    "GpuDeviceTextureDimensionMixin",
+    "CommandEncoderTextureDimensionMixin",
+    "ChunkSectionLayerMixin",
+    "ChunkSectionsToRenderMixin",
+    "GameRendererMixin",
+    "GpuSurfaceMixin",
+    "OptionsScreenMixin",
+    "LevelRendererFeatureMixin",
+    "LevelRendererFrameStateMixin",
+    "LevelResidentModelStateMixin",
+    "LevelResidentModelExtractMixin",
+    "LevelRendererVanillaReplacementMixin",
+    "LevelRendererShadowReplayMixin",
+    "RenderTypeAccessor",
+    "RenderSetupReplayAccessor",
+    "RenderTypeMixin",
+    "PreparedRenderTypeMixin",
+    "VulkanConstMixin",
+    "VulkanGpuTextureDimensionMixin",
+    "VulkanGpuTextureViewDimensionMixin",
+    "VulkanCommandEncoderTextureDimensionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
